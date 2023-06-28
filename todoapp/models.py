@@ -12,7 +12,6 @@ class Users(Base):
     last_name=Column(String)
     hashed_password=Column(Boolean,default=True)
     is_active=Column(String)
-
     role=Column(String)
 
 class Todos(Base):

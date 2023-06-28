@@ -1,11 +1,8 @@
 
-
 from fastapi import FastAPI,Depends,Path
-
 import models
 from models import Todos
 from database import engine
-
 from routers import auth,todos
 
 app=FastAPI()
